@@ -1,0 +1,48 @@
+
+.nav {
+  background-color: rgba(224, 220, 220, 0.405);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 30px;
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  padding-left: 50px;
+  font-family: monospace;
+  color: rgb(58, 45, 37);
+}
+.nav-right ul li{
+font-size:x-large;
+}
+.logo{
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: rgb(58, 45, 37);
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.nav a:hover {
+  color: rgb(120, 90, 60); 
+  text-decoration: underline;
+}
+
+.nav-medal ul,
+.nav-right ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 30px;
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+}
