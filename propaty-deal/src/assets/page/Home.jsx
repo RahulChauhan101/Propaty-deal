@@ -56,6 +56,7 @@ const Home = () => {
           </div>
           <div className="perfact_Home_right-heading">
             <div>
+              <h1>Propaty_deal</h1>
               <h1>Unique design & Erogonomics</h1>
               <h5>From Blueprints to Renders.</h5>
             </div>
